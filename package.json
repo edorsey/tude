@@ -1,0 +1,31 @@
+{
+  "name": "tude",
+  "version": "1.0.0",
+  "description": "Encodes and decodes latitude and longitude so that it can be used in URLs that need to be as short as possible.",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test ./node_modules/.bin/mocha ./test --colors --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/edorsey/tude"
+  },
+  "keywords": [
+    "Latitude",
+    "Longitude",
+    "Base62",
+    "URL"
+  ],
+  "author": "Eric Dorsey <eric@ericdorsey.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/edorsey/tude/issues"
+  },
+  "homepage": "https://github.com/edorsey/tude",
+  "dependencies": {
+    "base62": "^1.1.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.3"
+  }
+}
