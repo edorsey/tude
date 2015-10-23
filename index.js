@@ -49,8 +49,6 @@ function decodeCoordinate(coordinate, precision) {
 }
 
 function encodeDivider(lat, lng) {
-  var divider;
-
   if (lat >= 0 && lng >= 0) return "*";
   else if (lat >= 0 && lng < 0) return "-";
   else if (lat < 0 && lng >= 0) return "~";
